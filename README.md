@@ -6,15 +6,15 @@ Inofficial OpenSource steam-like client to purchase, download, install, manage a
 Features
 ========
 
-Sign in (captcha support), request new password, create new account
-Integrated browser for www.humblebundle.com to purchase software
-Search for products and sort them by platform
-Integreated Bittorrent client
+Sign in (captcha support), request new password, create new account\n
+Integrated browser for www.humblebundle.com to purchase software\n
+Search for products and sort them by platform\n
+Integreated Bittorrent client\n
 
 TODO 
 ====
-Settings (download location etc.)
-Start games/View ebooks/Listen to music
-Add foreign games
-Backup savegames (copy them to any directory in sync with dropbox/ownCloud etc) 
-BigPicture like mode via XBMC
+Settings (download location etc.)\n
+Start games/View ebooks/Listen to music\n
+Add foreign games\n
+Backup savegames (copy them to any directory in sync with dropbox/ownCloud etc)\n 
+BigPicture like mode via XBMC\n
