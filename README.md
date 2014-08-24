@@ -9,7 +9,8 @@ Features
 - Integrated browser for www.humblebundle.com to purchase software
 - Search for products and sort them by platform
 - Integreated Bittorrent client
-- 
+
+
 TODO 
 ====
 - Settings (download location etc.)
