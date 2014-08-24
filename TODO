@@ -1,0 +1,57 @@
+todo: ask humblebundle.com for cooperation. json API documentation, all linux apps must be available as distribution independent zip/tar.gz/whatever file, allow usage of icons 
+
+https://www.humblebundle.com/user/steam_profile?steamid=
+https://www.humblebundle.com/user/unclaimed_orders?html=true
+
+fixme: familyamount removed? Is there an alternative json file for it?
+fixme: json meta-data removed?
+
+feature: sha1sum md5sum check after download
+feature: install applications
+feature: start applications
+feature: hours played
+feature: settings: show unclaimed, steam account, stats, download directory, sync directory (copy everything in a dropbox/owncloud etc directory?), subscriptions (email on new bundles etc)
+feature: bigpicture mode (xbmc + addon, ipc with sockets)
+feature: add foreign games
+feature: open/show/play ebooks/muisc. Or play/show it directly with xbmc if connected
+
+fixme: enums for UserData need a central location (QNetworkRequests, QTableVIewItem)!
+fixme: same download can be added multiple times
+fixme: all filter + random download -> all platform icon in download widget
+fixme: TorrentClient: add "DownloadingTorrent" state and add TorrentClient::addTorrent( QUrl );
+fixme: QT_BEGIN_NAMESPACE and QT_END_NAMESPACE when using forward declarations
+fixme: HumbleWeb_t::togglePause: What happens on error (no downloadFinished signal)? What happens if max parallel downloads are reached?
+fixme: FileDownloader_t: How many parallel downloads does QNetworkAccessmanager allow?
+fixme: simplebrowser (humblelogin) not deleted after use.
+fixme: hide humblelogin while simplebrowser in use
+fixme: clear password after *successful* login
+fixme: logout not (in browser) not recognized? (Use cookiejar?) Logged in detection very quick&dirty.
+fixme: redo userdata class and how it fetches json:
+fixme: userdata does not save and restore json
+fixme: userdata should forget user_order. Unneeded.
+fixme: userdata does not keep structure:
+    -> icons : share icons for all accounts
+    -> users : all accounts
+        -> user@mail.com : account directory
+            -> order : json storage 
+            -> jar   : store cookies
+            -> settings.ini : appeareance
+        -> someguy.web.org : another account
+            ->  
+            ->
+            ->
+
+todo: compile and test on Mac/Windows
+todo: gamelistwidget: no parent items, show a list!
+todo: gamelistwidget: show icons for downloading, ready to install, update available
+todo: web download: no speed limitation. missing downloadratechanged signal. primitive speed calculation.
+todo: no error labels at download widgets
+todo: combined download indicator stub (only unused progressbar so far)
+todo: downloads: enqueued, downloading, finished, failed
+todo: download rate controller: qt-project.org/forums/viewthread/19134
+todo: comment the code
+todo: style progressbars, navbar, detailsview (1st iteration)
+todo: HumbleNetwork: control browser traffic. New orders should be recognized and initiate a refresh 
+todo: auto-login (Persistentcookiejar)
+todo: systemtray icon: most played, last played, new games, options, quit
+todo: update json after timeout and add cli: --offline --username --password

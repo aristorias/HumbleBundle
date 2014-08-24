@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource>
+    <file>humble/h_small.png</file>
+    <file>humble/h_huge.png</file>
+    <file>humble/h_big.png</file>
+    <file>tags/drmfree.svg</file>
+    <file>platforms/all.png</file>
+    <file>platforms/windows.png</file>
+    <file>platforms/mac.png</file>
+    <file>platforms/linux.png</file>
+    <file>platforms/android.png</file>
+    <file>platforms/audio.png</file>
+    <file>platforms/ebook.png</file>
+    <file>platforms/web.png</file>
+    <file>platforms/bittorrent.png</file>
+    <file>platforms/download.png</file>
+    <file>platforms/steam.png</file>
+    <file>platforms/uplay.png</file>
+</qresource>
+</RCC>
