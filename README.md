@@ -16,5 +16,6 @@ TODO
 - Settings (download location etc.)
 - Start games/View ebooks/Listen to music
 - Add foreign games
+- Humble Qt-Style and fonts
 - Backup savegames (copy them to any directory in sync with dropbox/ownCloud etc)
 - BigPicture like mode via Kodi-Addon (aka. XBMC)
