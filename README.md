@@ -1,7 +1,7 @@
 HumbleBundle
 ============
 
-*Inofficial* OpenSource steam-like client (Qt5/C++) to purchase, download, install, manage and use DRM-free software purchased at www.humblebundle.com.
+*Inofficial* OpenSource steam-like client (Qt5/C++) to purchase, download, install, manage and use DRM-free software from www.humblebundle.com.
 
 Features
 ========
