@@ -17,4 +17,4 @@ TODO
 - Start games/View ebooks/Listen to music
 - Add foreign games
 - Backup savegames (copy them to any directory in sync with dropbox/ownCloud etc)
-- BigPicture like mode via XBMC
+- BigPicture like mode via Kodi-Addon (aka. XBMC)
